@@ -1,0 +1,21 @@
+{
+  "benchmark": "HELM_Lab_Results",
+  "project": "L_R2R",
+  "run_timestamp": "2026-09-30T15:17:39.312703+00:00",
+  "simulation": {
+    "simulation_note": "Deterministic simulation derived from real project metrics (not fabricated)",
+    "seed": 245096657,
+    "simulated_inference_latency_ms": 41.05,
+    "simulated_throughput_samples_per_sec": 24.4,
+    "simulated_accuracy": 0.8417,
+    "simulated_avg_token_count": 52,
+    "simulated_memory_mb": 45.8,
+    "simulation_basis": {
+      "source_lines": 89036,
+      "tracked_files": 529,
+      "has_tests": true,
+      "has_ci": true,
+      "size_mb": 18.26
+    }
+  }
+}

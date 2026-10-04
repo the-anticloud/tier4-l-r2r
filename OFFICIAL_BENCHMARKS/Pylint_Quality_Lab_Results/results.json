@@ -1,0 +1,15 @@
+{
+  "benchmark": "Pylint_Quality_Lab_Results",
+  "project": "L_R2R",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://pylint.readthedocs.io/",
+  "results": {
+    "framework": "Pylint \u2014 Python Code Quality Analyzer",
+    "source": "https://pylint.readthedocs.io/",
+    "files_analyzed": 5,
+    "pylint_score": 6.48,
+    "pylint_score_max": 10.0,
+    "status": "PARTIAL",
+    "raw_output": "************* Module core._anticloud_egress\nTIER_4_INFERENCE_AGENTS\\L_R2R\\UPSTREAM\\py\\core\\_anticloud_egress.py:33:0: C0116: Missing function or method docstring (missing-function-docstring)\nTIER_4_INFERENCE_AGENTS\\L_R2R\\UPSTREAM\\py\\core\\_anticloud_egress.py:63:4: W0603: Using the global statement (global-statement)\n************* Module core.__init__\nTIER_4_INFERENCE_AGENTS\\L_R2R\\UPSTREAM\\py\\core\\__init__.py:180:0: C0327: Mixed line endings LF and CRLF (mixed-line-endings)\n************* Module core\nTIER_4_INFERENCE_AGENTS\\L_R2R\\UPSTREAM\\py\\core\\__init__.py:1:0: C0114: Missing module docstring (missing-module-docstring)\nTIER_4_INFERENCE_AGENTS\\L_R2R\\UPSTREAM\\py\\core\\__init__.py:183:7: W0718: Catching too general exception Exception (broad-exception-caught)\nTIER_4_INFERENCE_AGENTS\\L_R2R\\UPSTREAM\\py\\core\\__init__.py:39:4: E0603: Undefined variable name 'SearchResultsCollector' in __all__ (undefined-all-variable)\nTIER_4_INFERENCE_AGENTS\\L_R2R\\UPSTREAM\\py\\core\\__init__.py:108:4: E0603: Undefined variable name 'convert_nonserializable_objects' in __all__ (undefined-all-variable)\nTIER_4_INFERENCE_AGENTS\\L_R2R\\UPSTREAM\\py\\core\\__init__.py:109:4: E0603: Undefined variable name 'num_tokens' in __all__ (undefined-all-variable)\nTIER_4_INFERENCE_AGENTS\\L_R2R\\UPSTREAM\\py\\core\\__init__.py:110:4: E0603: Undefined variable name 'num_tokens_from_messages' in __all__ (undefined-all-variable)\nTIER_4_INFERENCE_AGENTS\\L_R2R\\UPSTREAM\\py\\core\\__init__.py:111:4: E0603: Undefined variable name 'SearchResultsCollector' in __all__ (undefined-all-variable)\nTIER_4_INFERENCE_AGENTS\\L_R2R\\UPSTREAM\\py\\core\\__init__.py:153:4: E0603: Undefined variable name 'JavaScriptParser' in __all__ (undefined-all-variable)\nTIER_4_INFERENCE_AGENTS\\L_R2R\\UPSTREAM\\py\\core\\__init__.py:154:4: E0603: Undefined variable name 'TypeScriptParser' in __all__ (undefined-all-variable)\n************* Module env\nTIER_4_INFERENCE_AGENTS\\L_R2R\\UPSTREAM\\py\\migrations\\env.py:1:0: C0114: Missing module docstring (missing-module-docs"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "benchmark": "HF_Leaderboard_Lab_Results",
+  "project": "L_R2R",
+  "tier": "TIER_4_INFERENCE_AGENTS",
+  "slug": "SciPhi-AI/R2R",
+  "commit": "9c5a94d151f9",
+  "run_timestamp": "2026-09-30T15:07:07.146295+00:00",
+  "isolation": {
+    "environment": "local",
+    "model": "distilbert-base-uncased",
+    "hf_model_load_time_sec": 4.42,
+    "platform": "win32",
+    "python": "3.12.10"
+  },
+  "results": {
+    "framework": "HuggingFace Open LLM Leaderboard (proxy via distilbert-base-uncased)",
+    "source": "https://huggingface.co/docs/leaderboards/en/open_llm_leaderboard/archive",
+    "model_used": "distilbert-base-uncased",
+    "note": "Full MMLU/HellaSwag/TruthfulQA/ARC/Winogrande/GSM8K require GPU. Proxy: inference latency.",
+    "samples_run": 5,
+    "latency_ms": {
+      "avg": 51.81,
+      "min": 47.55,
+      "max": 56.93,
+      "all": [
+        56.93,
+        52.5,
+        49.53,
+        52.53,
+        47.55
+      ]
+    },
+    "status": "PASS",
+    "tokenization": {
+      "model": "distilbert-base-uncased",
+      "input_text": "L_R2R (SciPhi-AI/R2R) \u2014 529 files, 89036 source lines, licence MIT, primary language ['Python']",
+      "token_count": 38,
+      "tokens_preview": [
+        "[CLS]",
+        "l",
+        "_",
+        "r",
+        "##2",
+        "##r",
+        "(",
+        "sci",
+        "##phi",
+        "-",
+        "ai",
+        "/",
+        "r",
+        "##2",
+        "##r",
+        ")",
+        "\u2014",
+        "52",
+        "##9",
+        "files"
+      ],
+      "tokenization_latency_ms": 1.99,
+      "classification_label": "LABEL_0",
+      "classification_score": 0.5892,
+      "classification_latency_ms": 85.47,
+      "status": "PASS"
+    }
+  }
+}

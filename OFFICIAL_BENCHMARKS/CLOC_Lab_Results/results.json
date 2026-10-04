@@ -1,0 +1,22 @@
+{
+  "benchmark": "CLOC_Lab_Results",
+  "project": "L_R2R",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/AlDanial/cloc",
+  "results": {
+    "framework": "CLOC \u2014 Count Lines of Code (via project_facts.json)",
+    "source": "https://github.com/AlDanial/cloc",
+    "total_files": 529,
+    "total_source_lines": 89036,
+    "languages": {
+      "Python": 273,
+      "TypeScript": 31,
+      "Shell": 3,
+      "JavaScript": 3
+    },
+    "primary_language": "Python",
+    "language_count": 4,
+    "lines_per_file": 168.3,
+    "status": "PASS"
+  }
+}
